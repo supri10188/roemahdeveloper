@@ -931,45 +931,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Doctors
+# Tentangkami
 --------------------------------------------------------------*/
-.doctors {
+.tentangkami {
   background: #fff;
 }
 
-.doctors .member {
+.tentangkami .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.tentangkami .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.tentangkami .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.tentangkami .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.tentangkami .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.tentangkami .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
 
-.doctors .member span {
+.tentangkami .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -977,7 +977,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.tentangkami .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -988,19 +988,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.tentangkami .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.tentangkami .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.tentangkami .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1011,17 +1011,17 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.tentangkami .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.tentangkami .member .social a:hover {
   background: #1977cc;
 }
 
-.doctors .member .social a+a {
+.tentangkami .member .social a+a {
   margin-left: 8px;
 }
 
@@ -1647,85 +1647,4 @@ section {
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
-# Tentang kami
---------------------------------------------------------------*/
-.tentangkami {
-  background: #fff;
-}
-
-.tentangkami .member {
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-}
-
-.tentangkami .member .pic {
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.tentangkami .member img {
-  transition: all ease-in-out 0.4s;
-}
-
-.tentangkami .member:hover img {
-  transform: scale(1.1);
-}
-
-.tentangkami .member .member-info {
-  position: absolute;
-  bottom: -80px;
-  left: 0px;
-  right: 0px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.tentangkami .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #01036f;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.tentangkami .member h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #0d12fc;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.tentangkami .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #01036f;
-}
-
-.tentangkami .member .social {
-  margin-top: 10px;
-}
-
-.tentangkami .member .social a {
-  transition: color 0.3s;
-  color: #01036f;
-}
-
-.tentangkami .member .social a:hover {
-  color: #1acc8d;
-}
-
-.tentangkami .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
 
