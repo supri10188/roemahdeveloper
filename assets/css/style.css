@@ -1,10 +1,3 @@
-/**
-* Template Name: Medilab - v4.9.1
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -204,9 +197,9 @@ h6 {
 }
 
 /**
-* Appointment Button *
+* Registrasi Button *
 */
-.appointment-btn {
+.registrasi-btn {
   margin-left: 25px;
   background: #1977cc;
   color: #fff;
@@ -218,13 +211,13 @@ h6 {
   display: inline-block;
 }
 
-.appointment-btn:hover {
+.registrasi-btn:hover {
   background: #166ab5;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  .appointment-btn {
+  .registrasi-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
   }
@@ -729,26 +722,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Tentang Kami
 --------------------------------------------------------------*/
-.about .icon-boxes h4 {
+.tentangkami .icon-boxes h4 {
   font-size: 18px;
   color: #4b7dab;
   margin-bottom: 15px;
 }
 
-.about .icon-boxes h3 {
+.tentangkami .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
   color: #2c4964;
   margin-bottom: 15px;
 }
 
-.about .icon-box {
+.tentangkami .icon-box {
   margin-top: 40px;
 }
 
-.about .icon-box .icon {
+.tentangkami .icon-box .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -760,49 +753,49 @@ section {
   transition: 0.5s;
 }
 
-.about .icon-box .icon i {
+.tentangkami .icon-box .icon i {
   color: #1977cc;
   font-size: 32px;
 }
 
-.about .icon-box:hover .icon {
+.tentangkami .icon-box:hover .icon {
   background: #1977cc;
   border-color: #1977cc;
 }
 
-.about .icon-box:hover .icon i {
+.tentangkami .icon-box:hover .icon i {
   color: #fff;
 }
 
-.about .icon-box .title {
+.tentangkami .icon-box .title {
   margin-left: 85px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.about .icon-box .title a {
+.tentangkami .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
 }
 
-.about .icon-box .title a:hover {
+.tentangkami .icon-box .title a:hover {
   color: #1977cc;
 }
 
-.about .icon-box .description {
+.tentangkami .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
 }
 
-.about .video-box {
+.tentangkami .video-box {
   background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
 
-.about .play-btn {
+.tentangkami .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
@@ -814,7 +807,7 @@ section {
   overflow: hidden;
 }
 
-.about .play-btn::after {
+.tentangkami .play-btn::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -829,7 +822,7 @@ section {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.about .play-btn::before {
+.tentangkami .play-btn::before {
   content: "";
   position: absolute;
   width: 120px;
@@ -852,12 +845,12 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 
-.about .play-btn:hover::after {
+.tentangkami .play-btn:hover::after {
   border-left: 15px solid #1977cc;
   transform: scale(20);
 }
 
-.about .play-btn:hover::before {
+.tentangkami .play-btn:hover::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -947,17 +940,17 @@ section {
 
 
 /*--------------------------------------------------------------
-# Appointments
+# Registrasi
 --------------------------------------------------------------*/
-.appointment .php-email-form {
+.registrasi .php-email-form {
   width: 100%;
 }
 
-.appointment .php-email-form .form-group {
+.registrasi .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.appointment .php-email-form .validate {
+.registrasi .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -965,7 +958,7 @@ section {
   font-size: 13px;
 }
 
-.appointment .php-email-form .error-message {
+.registrasi .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -974,11 +967,11 @@ section {
   font-weight: 600;
 }
 
-.appointment .php-email-form .error-message br+br {
+.registrasi .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.appointment .php-email-form .sent-message {
+.registrasi .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -987,14 +980,14 @@ section {
   font-weight: 600;
 }
 
-.appointment .php-email-form .loading {
+.registrasi .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.appointment .php-email-form .loading:before {
+.registrasi .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1007,31 +1000,31 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.appointment .php-email-form input,
-.appointment .php-email-form textarea,
-.appointment .php-email-form select {
+.registrasi .php-email-form input,
+.registrasi .php-email-form textarea,
+.registrasi .php-email-form select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   padding: 10px !important;
 }
 
-.appointment .php-email-form input:focus,
-.appointment .php-email-form textarea:focus,
-.appointment .php-email-form select:focus {
+.registrasi .php-email-form input:focus,
+.registrasi .php-email-form textarea:focus,
+.registrasi .php-email-form select:focus {
   border-color: #1977cc;
 }
 
-.appointment .php-email-form input,
-.appointment .php-email-form select {
+.registrasi .php-email-form input,
+.registrasi .php-email-form select {
   height: 44px;
 }
 
-.appointment .php-email-form textarea {
+.registrasi .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.appointment .php-email-form button[type=submit] {
+.registrasi .php-email-form button[type=submit] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
@@ -1040,7 +1033,7 @@ section {
   border-radius: 50px;
 }
 
-.appointment .php-email-form button[type=submit]:hover {
+.registrasi .php-email-form button[type=submit]:hover {
   background: #1c84e3;
 }
 
@@ -1202,87 +1195,7 @@ section {
   margin-left: 8px;
 }
 
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.faq .faq-list {
-  padding: 0 100px;
-}
 
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li+li {
-  margin-top: 15px;
-}
-
-.faq .faq-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  position: relative;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-  cursor: pointer;
-}
-
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: #76b5ee;
-}
-
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #1977cc;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1407,14 +1320,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Kontak kami
 --------------------------------------------------------------*/
-.contact .info {
+.kontakkami .info {
   width: 100%;
   background: #fff;
 }
 
-.contact .info i {
+.kontakkami .info i {
   font-size: 20px;
   color: #1977cc;
   float: left;
@@ -1428,7 +1341,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.kontakkami .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -1436,35 +1349,35 @@ section {
   color: #2c4964;
 }
 
-.contact .info p {
+.kontakkami .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
   color: #4b7dab;
 }
 
-.contact .info .email,
+.kontakkami .info .email,
 .contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.kontakkami .info .email:hover i,
+.kontakkami .info .address:hover i,
+.kontakkami .info .phone:hover i {
   background: #1977cc;
   color: #fff;
 }
 
-.contact .php-email-form {
+.kontakkami .php-email-form {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.kontakkami .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.kontakkami .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1473,11 +1386,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.kontakkami .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.kontakkami .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1486,14 +1399,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.kontakkami .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.kontakkami .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1506,22 +1419,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.kontakkami .php-email-form input,
+.kontakkami .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.kontakkami .php-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.kontakkami .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.kontakkami .php-email-form button[type=submit] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
@@ -1530,7 +1443,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.kontakkami .php-email-form button[type=submit]:hover {
   background: #1c84e3;
 }
 
