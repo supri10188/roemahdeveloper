@@ -1711,9 +1711,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Harga
 --------------------------------------------------------------*/
-.services .box {
+.harga .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1723,7 +1723,7 @@ section {
   overflow: hidden;
 }
 
-.services h3 {
+.harga h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
@@ -1733,7 +1733,7 @@ section {
   background: #f8f8f8;
 }
 
-.services h4 {
+.harga h4 {
   font-size: 36px;
   color: #1acc8d;
   font-weight: 600;
@@ -1741,19 +1741,19 @@ section {
   margin-bottom: 20px;
 }
 
-.services h4 sup {
+.harga h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
-.services h4 span {
+.harga h4 span {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
 
-.services ul {
+.harga ul {
   padding: 0;
   list-style: none;
   color: #444444;
@@ -1762,29 +1762,29 @@ section {
   font-size: 14px;
 }
 
-.services ul li {
+.harga ul li {
   padding-bottom: 16px;
 }
 
-.services ul i {
+.harga ul i {
   color: #1acc8d;
   font-size: 18px;
   padding-right: 4px;
 }
 
-.services ul .na {
+.harga ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
 
-.services .btn-wrap {
+.harga .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
 }
 
-.services .btn-buy {
+.harga .btn-buy {
   background: #1acc8d;
   display: inline-block;
   padding: 8px 35px 10px 35px;
@@ -1798,16 +1798,16 @@ section {
   transition: 0.3s;
 }
 
-.services .btn-buy:hover {
+.harga .btn-buy:hover {
   background: #149f6e;
 }
 
-.services .featured h3 {
+.harga .featured h3 {
   color: #fff;
   background: #1acc8d;
 }
 
-.services .advanced {
+.harga .advanced {
   width: 200px;
   position: absolute;
   top: 18px;
@@ -1823,32 +1823,32 @@ section {
 
 
 /*--------------------------------------------------------------
-# Team
+# Instruktur
 --------------------------------------------------------------*/
-.team {
+.instruktur {
   background: #fff;
 }
 
-.team .member {
+.instruktur .member {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.team .member .pic {
+.instruktur .member .pic {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.team .member img {
+.instruktur .member img {
   transition: all ease-in-out 0.4s;
 }
 
-.team .member:hover img {
+.instruktur .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member .member-info {
+.instruktur .member .member-info {
   position: absolute;
   bottom: -80px;
   left: 0px;
@@ -1859,7 +1859,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team .member h4 {
+.instruktur .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1868,7 +1868,7 @@ section {
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.instruktur .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1879,27 +1879,27 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member span {
+.instruktur .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #01036f;
 }
 
-.team .member .social {
+.instruktur .member .social {
   margin-top: 10px;
 }
 
-.team .member .social a {
+.instruktur .member .social a {
   transition: color 0.3s;
   color: #01036f;
 }
 
-.team .member .social a:hover {
+.instruktur .member .social a:hover {
   color: #1acc8d;
 }
 
-.team .member .social i {
+.instruktur .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
