@@ -733,6 +733,7 @@ section {
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
+  margin-bottom: 20px;
   position: relative;
   text-align: center;
   background: #fff;
