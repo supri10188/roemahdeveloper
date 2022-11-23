@@ -727,8 +727,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   background: #f1f7fd;
-  padding: 70px 0 60px;
-  margin-bottom: 20px;
+  padding: 70px 40px 40px 60px;
 }
 
 .counts .count-box {
