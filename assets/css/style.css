@@ -113,7 +113,7 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#atas {
+#topbar {
   background: #fff;
   height: 40px;
   font-size: 14px;
@@ -121,32 +121,32 @@ h6 {
   z-index: 996;
 }
 
-#atas.atas-scrolled {
+#topbar.topbar-scrolled {
   top: -40px;
 }
 
-#atas .contact-info a {
+#topbar .contact-info a {
   line-height: 1;
   color: #444444;
   transition: 0.3s;
 }
 
-#atas .contact-info a:hover {
+#topbar .contact-info a:hover {
   color: #1977cc;
 }
 
-#atas .contact-info i {
+#topbar .contact-info i {
   color: #1977cc;
   padding-right: 4px;
   margin-left: 15px;
   line-height: 0;
 }
 
-#atas .contact-info i:first-child {
+#topbar .contact-info i:first-child {
   margin-left: 0;
 }
 
-#atas .social-links a {
+#topbar .social-links a {
   color: #437099;
   padding-left: 15px;
   display: inline-block;
@@ -154,13 +154,14 @@ h6 {
   transition: 0.3s;
 }
 
-#atas .social-links a:hover {
+#topbar .social-links a:hover {
   color: #1977cc;
 }
 
-#atas .social-links a:first-child {
+#topbar .social-links a:first-child {
   border-left: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Header
