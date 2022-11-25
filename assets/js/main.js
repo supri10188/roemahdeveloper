@@ -1,9 +1,4 @@
-/**
-* Template Name: Medilab - v4.9.1
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -73,23 +68,24 @@
       behavior: 'smooth'
     })
   }
+  
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
-  let selectTopbar = select('#topbar')
+  let selectAtas = select('#atas')
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
-        if (selectTopbar) {
-          selectTopbar.classList.add('topbar-scrolled')
+        if (selectAtas) {
+          selectAtas.classList.add('atas-scrolled')
         }
       } else {
         selectHeader.classList.remove('header-scrolled')
-        if (selectTopbar) {
-          selectTopbar.classList.remove('topbar-scrolled')
+        if (selectAtas) {
+          selectAtas.classList.remove('atas-scrolled')
         }
       }
     }
@@ -179,16 +175,16 @@
   });
 
   /**
-   * Initiate Gallery Lightbox 
+   * Initiate Galeri Lightbox 
    */
-  const galelryLightbox = GLightbox({
-    selector: '.galelry-lightbox'
+  const galeriLightbox = GLightbox({
+    selector: '.galeri-lightbox'
   });
 
   /**
-   * Testimonials slider
+   * Testimoni slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.testimoni-slider', {
     speed: 600,
     loop: true,
     autoplay: {
