@@ -74,18 +74,18 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
-  let selectAtas = select('#atas')
+  let selectTopbar = select('#topbar')
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
-        if (selectAtas) {
-          selectAtas.classList.add('atas-scrolled')
+        if (selectTopbar) {
+          selectTopbar.classList.add('topbar-scrolled')
         }
       } else {
         selectHeader.classList.remove('header-scrolled')
-        if (selectAtas) {
-          selectAtas.classList.remove('atas-scrolled')
+        if (selectTopbar) {
+          selectTopbar.classList.remove('topbar-scrolled')
         }
       }
     }
