@@ -181,10 +181,11 @@
     selector: '.galeri-lightbox'
   });
 
-  /**
-   * Testimoni slider
+  
+/**
+   * Testimonials slider
    */
-  new Swiper('.testimoni-slider', {
+  new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -215,4 +216,4 @@
    */
   new PureCounter();
 
-})()
+  
