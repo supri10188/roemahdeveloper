@@ -163,7 +163,7 @@
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.hide()
+      preloader.stop()
     });
   }
   
