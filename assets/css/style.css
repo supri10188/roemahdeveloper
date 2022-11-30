@@ -81,7 +81,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 50px;
   z-index: 996;
   background: #1977cc;
   width: 40px;
@@ -1553,6 +1553,6 @@ section {
 
 
 
-.chatkami {bottom:10px;right:10px;background-color: #e4e4e4; color: rgba(0, 0, 0, 0.6);position: fixed; z-index: 99999999;border-radius:20px;margin-bottom:50px;padding:5px 10px 5px 5px}
+.chatkami {bottom:10px;right:10px;background-color: #e4e4e4; color: rgba(0, 0, 0, 0.6);position: fixed; z-index: 99999999;border-radius:20px;padding:5px 10px 5px 5px}
 .chatkami span{background:green;padding:3px 6px;border-radius:100%;color:white}
 .chatkami a{color: rgba(0, 0, 0, 0.6)}
